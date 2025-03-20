@@ -1,6 +1,6 @@
 # SPIFFSIni
 
-A simple, lightweight library for managing INI-style configuration files in SPIFFS on ESP32 using Arduino IDE.
+A simple, lightweight library for managing INI-style configuration files in SPIFFS on ESP32 using Arduino IDE or PlatformIO.
 
 ## Overview
 
