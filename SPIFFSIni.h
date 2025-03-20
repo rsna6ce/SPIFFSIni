@@ -6,7 +6,12 @@
 
 /*
  * SPIFFSIni - A simple class for managing INI-style configuration files in SPIFFS on ESP32.
- * 
+ *
+ * Copyright (c) 2025 rsna6ce
+ *
+ * Released under the MIT License.
+ * See https://github.com/rsna6ce/SPIFFSIni/blob/main/LICENSE for full license details.
+ *
  * This class provides a lightweight way to read and write key-value pairs in a text file stored in SPIFFS.
  * The file format is simple: `key=value` per line, with optional comments starting with `#`.
  * It is designed for ease of use and portability, requiring no external libraries beyond the Arduino core.
