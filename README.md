@@ -23,15 +23,15 @@ A simple, lightweight library for managing INI-style configuration files in SPIF
 1. Download `SPIFFSIni.h` from this repository.
 2. Place it in your Arduino project folder or library directory.
 3. Include it in your sketch:
-   @@@cpp
+   ```cpp
    #include "SPIFFSIni.h"
-   @@@
+   ```
 
 No additional libraries are required—everything works with the standard Arduino ESP32 core.
 
 ## Usage Example
 
-@@@cpp
+```cpp
 #include "SPIFFSIni.h"
 
 void setup() {
@@ -55,13 +55,13 @@ void setup() {
 }
 
 void loop() {}
-@@@
+```
 
 This will create or update a file `/config.ini` in SPIFFS with content like:
-@@@
+```
 kp=1.5
 ki=0.5
-@@@
+```
 
 ## API Reference
 
